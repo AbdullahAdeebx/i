@@ -12,6 +12,6 @@ pip install git+https://github.com/openai/whisper.git
 # Transcribe demo file
 wget "https://raw.githubusercontent.com/AbdullahAdeebx/sample/refs/heads/main/mp3/sample.mp3"
 
-whisper sample.mp3 --model turbo
+whisper sample.mp3 --model large
 
 # Author: Abdullah Adeeb (abdullahadeeb.xyz)
