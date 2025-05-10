@@ -10,7 +10,7 @@ sudo apt install ffmpeg -y
 pip install git+https://github.com/openai/whisper.git
 
 # Transcribe demo file
-wget "https://raw.githubusercontent.com/AbdullahAdeebx/sample/refs/heads/main/mp3/sample.mp3"
+wget "https://raw.githubusercontent.com/AbdullahAdeebx/sample/refs/heads/main/audio/sample.mp3"
 
 whisper sample.mp3 --model large
 
